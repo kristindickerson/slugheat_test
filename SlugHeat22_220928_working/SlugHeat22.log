@@ -1,0 +1,45 @@
+----------------------------------------------
+----------------------------------------------
+SlugHeat22 start time: 11-Oct-2022 10:07:32
+----------------------------------------------
+----------------------------------------------
+
+11-Oct-2022 10:07:32 Processing set up and data preparation
+==================================================================================================
+
+ -- Finding parameter file...
+Parameter file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_220928/SlugHeat22_DickersonWorking/SlugHeat22.par
+
+ -- Finding calibration file...
+Calibration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_220928/SlugHeat22_DickersonWorking/SlugHeat22.cal
+
+-- Reading in parameters from parameters file
+
+-- Reading in parameters from calibration file
+
+-- Reading in parameters from parameters file
+
+-- Resetting penetration information
+
+ -- Finding penetration file from SlugPen...
+Penetration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_220928/SlugHeat22_DickersonWorking/PenetrationFiles/Old_HFData/XX_FUG16_HF01A.pen
+
+ -- Finding tap file from SlugPen...
+TAP file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_220928/SlugHeat22_DickersonWorking/PenetrationFiles/Old_HFData/XX_FUG16_HF01A.tap
+
+ -- Finding mat file from SlugPen...
+MAT file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_220928/SlugHeat22_DickersonWorking/PenetrationFiles/Old_HFData/XX_FUG16_HF01A.mat
+
+-- Correcting temperature with respect to bottom water
+
+-- Splitting penetration and heat pulse data
+
+-- Plotting unprocessed penetration data on "Penetration Data" tab
+
+==================================================================================================
+
+11-Oct-2022 10:08:35 - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+

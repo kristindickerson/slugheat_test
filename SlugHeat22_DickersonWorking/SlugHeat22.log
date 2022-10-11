@@ -1,0 +1,70 @@
+----------------------------------------------
+----------------------------------------------
+SlugHeat22 start time: 29-Sep-2022 10:37:47
+----------------------------------------------
+----------------------------------------------
+
+29-Sep-2022 10:37:47 Processing set up and data preparation
+==================================================================================================
+
+ -- Finding parameter file...
+Parameter file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/SlugHeat22.par
+
+ -- Finding calibration file...
+Calibration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/SlugHeat22.cal
+
+-- Reading in parameters from parameters file
+
+-- Reading in parameters from calibration file
+
+-- Reading in parameters from parameters file
+
+-- Resetting penetration information
+
+ -- Finding penetration file from SlugPen...
+Penetration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/test5_station_1.pen
+
+ -- Finding tap file from SlugPen...
+TAP file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/test5_station_1.tap
+
+ -- Finding mat file from SlugPen...
+MAT file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/test5_station_1.mat
+
+-- Reading in penetatration file
+
+-- Reading in TAP file
+
+-- Correcting temperature with respect to bottom water
+
+-- Splitting penetration and heat pulse data
+
+-- Plotting unprocessed penetration data on "Penetration Data" tab
+
+==================================================================================================
+
+29-Sep-2022 10:39:32 - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+
+==================================================================================================
+
+29-Sep-2022 10:40:18 - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+
+==================================================================================================
+
+29-Sep-2022 10:40:37 - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+
+==================================================================================================
+
+29-Sep-2022 10:47:15 - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+

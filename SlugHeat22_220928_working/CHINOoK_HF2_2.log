@@ -1,0 +1,281 @@
+===============================================================================
+===============================================================================
+===                                                                         ===
+===       SlugHeat  -  Version: 22  -  Update: 2022                         ===
+===                                                                         ===
+===============================================================================
+===============================================================================
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+--                                                                                                                                      --
+--  LOG FILE: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/CHINOoK_HF2_2.log  --
+--                                                                                                                                      --
+--                                                   Processed: 27-Sep-2022 14:55:58                                                    --
+--                                                                                                                                      --
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Penetration file:  /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_2.pen
+
+Parameter file (*):  /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/SlugHeat22.par
+
+Res file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/CHINOoK_HF2_2.res
+
+
+(*) File SlugHeat22.par found in the working directory !
+
+
+=================================================
+BEGIN LOG FILE
+=================================================
+
+----------------------------------------------
+----------------------------------------------
+SlugHeat22 start time: 27-Sep-2022 14:55:58
+----------------------------------------------
+----------------------------------------------
+
+27-Sep-2022 14:55:58 Processing set up and data preparation
+==================================================================================================
+
+ -- Finding parameter file...
+Parameter file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/SlugHeat22.par
+
+ -- Finding calibration file...
+Calibration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/SlugHeat22.cal
+
+-- Reading in parameters from parameters file
+
+-- Reading in parameters from calibration file
+
+-- Reading in parameters from parameters file
+
+-- Resetting penetration information
+
+ -- Finding penetration file from SlugPen...
+Penetration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_1.pen
+
+ -- Finding tap file from SlugPen...
+TAP file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_1.tap
+
+ -- Finding mat file from SlugPen...
+MAT file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_1.mat
+
+-- Reading in penetatration file
+
+-- Reading in TAP file
+
+-- Correcting temperature with respect to bottom water
+
+-- Splitting penetration and heat pulse data
+
+-- Plotting unprocessed penetration data on "Penetration Data" tab
+
+==================================================================================================
+
+27-Sep-2022 14:57:02 - Begin SlugHeat22 PROCESSING
+==================================================================================================
+
+-- Splitting penetration and heat pulse data
+
+-- Reading in parameters from parameters file
+
+-- Resetting penetration information
+
+ -- Finding penetration file from SlugPen...
+Penetration file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_2.pen
+
+ -- Finding tap file from SlugPen...
+TAP file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_2.tap
+
+ -- Finding mat file from SlugPen...
+MAT file: /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_2.mat
+
+
+                          ---------------------------
+                          PARAMETERS READ IN PAR FILE
+                          ---------------------------
+
+
+Number Of Sensors:		11
+Time Scaling Factor (s):	10.0
+Sensor Radius (m):		4.76e-03
+Inter-sensor spacing (m):	0.30
+
+Calibration Coefficients ( T = 1000*[a.x^2 + b.x + c] degC ):
+
+  a: 0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  
+  b: 1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  
+  c: 0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  
+
+Hyndman Coefficients ( Kappa = k/[a - b.k + c.k^2] 10^-6 m2 s-1 ):
+
+  a: 5.790
+  b: 3.670
+  c: 1.016
+
+Initial Frictional Delays (s):
+
+  200.0  200.0  200.0  200.0  200.0  200.0  200.0  200.0  200.0  200.0  200.0  
+
+Time Shift Increment (s):  	-8
+Maximum Frictional Step:  	50
+Minimum Frictional Tau:  	1.6
+Maximum Fricional Tau:  	10.0
+
+Assumed Initial Conductivities (W/m/degC):  
+
+  k(z) = +0.909 +0.024z
+
+Initial Heat Pulse Delays (s):
+
+  10.0  10.0  10.0  10.0  10.0  10.0  10.0  10.0  10.0  10.0  10.0  
+
+Time Shift Increment (s): 	1.0
+Maximum Heat Pulse Step:  	50
+Minimum Heat Pulse Tau:  	1.6
+Maximum Heat Pulse Tau:  	10.0
+Heat Pulse Power (J/m):  	600.0
+Heat Pulse Length (s):  	20.0
+Tolerance on k (degC):  	0.0
+Minimum change of Sigma(k):  	0.0
+Maximum number of iterations for k computations:  	10.0
+Number of Iterations for Sensitivity analysis:  	100.0
+Standard deviation in thermal conductivity for Sensitivity analysis:  	0.1
+Minimum thermal conductivity cutoff for Sensitivity analysis:  	0.6
+Maximum thermal conductivity cutoff for Sensitivity analysis:  	1.5
+Mininum layer thickness for Sensitivity analysis:  	0.1
+Use Frictional decay for No Heat pulse Sensitivity analysis ?:  	0.0
+Horizontal thermal conductivity Anisotropy:  	1.1
+Depth of first thermistor below weight stand:  	0.250
+
+
+Penetration file /Volumes/GoogleDrive/My Drive/Research/Heat_Flow /SlugHeat/code/SlugHeat22/SlugHeat22_DickersonWorking/PenetrationFiles/CHINOoK/HF2/CHINOoK_HF2_2.pen read ...
+TAP file CHINOoK_HF2_2.tapread ...
+
+Applying tilt correction ...
+Mean tilt is now :      3.4 degrees.
+Inter-Sensor distance : 0.299 m.
+
+Converted raw readings to corrected temperature:
+Temperature is referenced to first point of bottom water calibration record ...
+
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+-------------------------------------------------------------------------------
+Penetration Start record number has been manually changed by user. New penetration start: 27-Sep-2022 14:57:19 - End of raw data reading and preparation !
+==========================================================================
+
+
+These sensors are IGNORED in processing: 11
+
+Converted raw readings to corrected temperature:
+Temperature is referenced to first point of bottom water calibration record ...
+
+-------------------------------------------------------------------------------
+27-Sep-2022 14:57:46 - Begin SlugHeat22 PROCESSING
+Split penetration and heat pulse data:
+There is a heat pulse record ...
+
+-------------------------------------------------------------------------------
+Penetration Start record number has been manually changed by user. New penetration start: Selected processing parameters:
+-------------------------------
+
+Penetration Record:  22
+Heat Pulse Record:   41
+End of Data Record:  71
+
+Frictional Tau Window:  [1.6  10]
+Heat Pulse Tau Window:  [1.6  10]
+
+Max # of Iterations:     10
+Min change in Total k:   1e-05
+
+
+       -----------------------------------------------------------------
+       RESULTS OF FRICTIONAL AND HEAT PULSE DECAYS REDUCTION - TRIAL # 1
+       -----------------------------------------------------------------
+
+
+Frictional Decay - Iteration 01
+===============================
+
+Sensor  Data Points  Eq. temp.   Error   Gradient  Delay   Slope
+        Tot. / Used    (deg)     (95%)   (mdeg/m)  (sec)   (/deg)
+------  -----------  ---------  -------  --------  ------  ------
+
+   1      19 /  7      2.785    4.4e-04   862.083     -8   -0.234
+   2      19 /  7      2.527    7.2e-04   995.773     96   -1.391
+   3      19 /  7      2.228    7.0e-04   828.739    192    1.292
+   4      19 /  7      1.980    9.1e-04   789.272     -8   -1.281
+   5      19 /  7      1.743    9.1e-04  1029.987     24   -1.731
+   6      19 /  7      1.434    7.1e-04   910.959      0   -1.269
+   7      19 /  7      1.160    7.0e-04  1047.034     -8   -0.876
+   8      19 /  7      0.846    9.4e-04  1001.960    -32   -0.558
+   9      19 /  7      0.546    1.5e-03   971.734    -32   -0.366
+  10      19 /  7      0.254    1.7e-04     0.000    -56   -0.110
+ 
+Heat Pulse Decay - Iteration 01
+===============================
+
+Sensor  Data Points   kPtHF97    Error    T@Inf   Delay   kSlpHF97   kPt@0Tinf  kPt@minRMS  kSlp@minRMS  kSlp@0Tinf
+        Tot. / Used  (W/deg/m)   (95%)    (deg)   (sec)   (W/deg/m)  (W/deg/m)  (W/deg/m)    (W/deg/m)   (W/deg/m)
+------  -----------  ---------  -------  -------  -----  ----------  ---------  ----------  -----------  ----------
+
+   1      31 / 18    0.316190   1.3e-04  0.01791   -39    0.357584    0.287150    0.277112    0.265292    0.287317
+   2      31 / 18    0.281080   4.9e-04  0.01053   -39    0.298912    0.268421    0.238313    0.205430    0.268844
+   3      31 / 18    0.338501   2.4e-04  0.00744   -39    0.356719    0.325345    0.302162    0.275334    0.325652
+   4      31 / 18    0.323432   2.2e-04  0.01817   -39    0.367654    0.291940    0.290194    0.287600    0.291492
+   5      31 / 18    0.285268   5.2e-05  0.01373   -39    0.309927    0.267261    0.243131    0.215676    0.266933
+   6      31 / 18    0.278101   6.5e-04  0.02315   -39    0.320165    0.249499    0.238157    0.225626    0.250332
+   7      31 / 18    0.300505   2.5e-04  0.01561   -39    0.332315    0.278016    0.260426    0.240252    0.278284
+   8      31 / 18    0.269730   3.1e-04  0.02697   -39    0.316776    0.237677    0.232241    0.226090    0.238044
+   9      31 / 18    0.285642   6.2e-05  0.01865   -39    0.320421    0.261014    0.243334    0.222975    0.260939
+  10      31 / 18    0.292979   5.5e-04  0.00343   -39    0.298765    0.289084    0.257106    0.221654    0.289647
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+Frictional Decay - Iteration 02
+===============================
+
+Sensor  Data Points  Eq. temp.   Error   Gradient  Delay   Slope
+        Tot. / Used    (deg)     (95%)   (mdeg/m)  (sec)   (/deg)
+------  -----------  ---------  -------  --------  ------  ------
+
+   1      19 / 19        NaN        NaN       NaN    192      NaN
+   2      19 / 19        NaN        NaN       NaN    192      NaN
+   3      19 / 19        NaN        NaN       NaN    192      NaN
+   4      19 / 19        NaN        NaN       NaN    192      NaN
+   5      19 / 19        NaN        NaN       NaN    192      NaN
+   6      19 / 19        NaN        NaN       NaN    192      NaN
+   7      19 / 19        NaN        NaN       NaN    192      NaN
+   8      19 / 19        NaN        NaN       NaN    192      NaN
+   9      19 / 19        NaN        NaN       NaN    192      NaN
+  10      19 / 19        NaN        NaN     0.000    192      NaN
+ 
+Heat Pulse Decay - Iteration 02 - Total change in conductivity: +6.7e-01+7.0e-01+6.3e-01+6.4e-01+6.7e-01+6.7e-01+6.4e-01+6.7e-01+6.4e-01+6.3e-01
+========================================================================
+
+Sensor  Data Points   kPtHF97    Error    T@Inf   Delay   kSlpHF97   kPt@0Tinf  kPt@minRMS  kSlp@minRMS  kSlp@0Tinf
+        Tot. / Used  (W/deg/m)   (95%)    (deg)   (sec)   (W/deg/m)  (W/deg/m)  (W/deg/m)    (W/deg/m)   (W/deg/m)
+------  -----------  ---------  -------  -------  -----  ----------  ---------  ----------  -----------  ----------
+
+   1      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   2      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   3      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   4      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   5      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   6      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   7      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   8      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+   9      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+  10      31 / 30         NaN       NaN      NaN    10         NaN         NaN         NaN         NaN         NaN
+
+-------------------------------------------------------------------------------------------------------------------
+
+
