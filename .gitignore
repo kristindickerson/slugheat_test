@@ -1,0 +1,7 @@
+logs/
+
+*.log
+*.res
+
+ErrResultsSummaryTable.mat
+HFResultsSummaryTable.mat

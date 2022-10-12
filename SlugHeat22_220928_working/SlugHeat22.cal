@@ -1,0 +1,18 @@
+1 				Water Calibration Type:
+					1 = Channels offset to the FIRST point in the BOTTOM 
+                        WATER temperature equilibrium period
+					2 = Channels offset to the LAST point in the BOTTOM 
+                        WATER temperature equilibrium period
+					3 = Channels offset to the MEAN of all points in the 
+                        BOTTOM WATER temperature equilibrium period
+					4 = Channels offset to the MEAN of all points in the 
+                        BOTTOM WATER temperature penetration period
+					5 = Channels offset to the FIRST of all points in the 
+                        DEEPEST probe tip temperature equilibrium period
+					6 = Channels offset to the LAST of all points in the 
+                        DEEPEST probe tip temperature equilibrium period
+					7 = Channels offset to the MEAN of all points in the 
+                        DEEPEST probe tip temperature equilibrium period
+
+
+0.15			Manual offset: added to all final temperatures relative to bototm water of each thermistor
