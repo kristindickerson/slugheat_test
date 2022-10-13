@@ -4,5 +4,19 @@ logs/
 *.res
 *.asv
 
-ErrResultsSummaryTable.mat
-HFResultsSummaryTable.mat
+SlugHeat22_220928_working/*.log
+SlugHeat22_220928_working/*.res
+
+SlugHeat22_220928_working/ErrResultsSummaryTable.mat
+SlugHeat22_220928_working/HFResultsSummaryTable.mat
+
+SlugHeat22_220928_working/ErrResultsSummaryTable.xlsx
+SlugHeat22_220928_working/HFResultsSummaryTable.xlsx
+
+SlugHeat22_220928_working/SlugHeatTemp.mat
+
+SlugHeat22_220928_working/.DS_Store
+
+SlugHeat22_220928_working/SummaryTables
+
+.DS_Store
