@@ -403,7 +403,7 @@ elseif length(grid.RowHeight) == 2 && length(grid.ColumnWidth) == 1
     end
 end
 end
- % Nested function to turn visibility of axes' children OFF
+            % Nested function to turn visibility of axes' children OFF
             % ---------------------------------------------------------
              function axesChildrenOFF(C)
                     for k = 1:numel(C)
